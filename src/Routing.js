@@ -4,6 +4,7 @@ import Home from './Pages/Home'
 import About from './Pages/About'
 import Menu from './Pages/Menu'
 import Support from './Pages/Support'
+import Api from './Pages/Api'
 
 
 function Routing() {
@@ -14,6 +15,8 @@ function Routing() {
             <Route path ='/about' Component = {About}></Route>
             <Route path ='/menu' Component = {Menu}></Route>
             <Route path ='/support' Component = {Support}></Route>
+            <Route path ='/api' Component = {Api}></Route>
+
         </Routes>
        
       </div>

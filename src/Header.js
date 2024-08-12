@@ -12,7 +12,8 @@ function Header() {
        <Link  to ='/'> <li>Home</li> </Link>
        <Link to ='/about'> <li>About</li> </Link>
        <Link to ='/menu'> <li>Menu</li> </Link>
-        <Link to ='/support'><li>Support</li> </Link>
+       <Link to ='/support'><li>Support</li> </Link>
+       <Link to ='/api'><li>Api</li> </Link>
       </ul>
     </div>
   );

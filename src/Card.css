@@ -1,0 +1,111 @@
+.card-container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 16px; 
+    padding: 16px;
+
+  
+    
+}
+.image{
+    height:200px;
+    width:200px;
+    cursor:pointer;
+    padding-left:40px;
+    border:none;
+    margin-left:35px;
+    align-items:center;
+    border-width:1px;
+    background-color:rgba(243, 232, 232, 0.966);
+    padding:10px;
+
+   
+}
+.card-item{
+    border: 1px solid black;
+    border-radius: 8px;
+    justify-content :space-between;
+    align-items:center;
+    margin:50px;
+    max-height:550px;
+    max-width:300px;
+    padding:20px;
+    cursor:pointer;
+    
+}
+.title{
+   color:rgb(210, 22, 22);
+   font-size:20px;
+   font-weight:bold;
+  
+}
+.category{
+    color:black;
+    font-weight:bold;
+    font-size:15px;
+}
+.price{
+    color:green;
+    font-weight:bold;
+    font-size:20px;
+    margin-right:30px;
+ 
+}
+.brand{
+     color:black;
+     font-size:25px;
+
+}
+
+.weight{
+    color:black;
+    font-weight:bold;
+    font-size:15px;
+}
+.rating{
+    color:blueviolet;
+    font-weight:900;
+}
+.card{
+    background-color:rgb(255, 251, 0);
+    color:black;
+    height:30px;
+    width:100px;
+    font-size:15px;
+    font-weight:bold;
+    border-width:1px;
+    border-radius:15px;
+    margin-right:30px;
+    margin-left:20px;
+    transition: background-color 1s,
+    color 0.5s;
+    cursor:pointer;
+}
+.card:hover{
+    background-color:white;
+    color:black
+}
+.card:active{
+    opacity:0.5s
+}
+.card1{
+    background-color:rgb(255, 251, 0);
+    color:black;
+    height:30px;
+    width:100px;
+    font-size:15px;
+    font-weight:bold;
+    border-width:1px;
+    border-radius:15px;
+    margin-left:30px;
+    transition: background-color 1s,
+    color 0.5s;
+    cursor:pointer;
+}
+.card1:hover{
+    background-color:white;
+    color:black
+}
+.card1:active{
+    opacity:0.5s
+}
